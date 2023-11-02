@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Animation Example</title>
+    <style>
+      #animation-box {
+        width: 100px;
+        height: 100px;
+        background-color: #3498db;
+        position: absolute;
+        top: 50%;
+        left: 0;
+        transform: translate(0, -50%);
+        transition: left 2s;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="animation-box"></div>
+    <button id="startButton">Start Animation</button>
+    <button id="stopButton">Stop Animation</button>
+
+    <script src="task7.js"></script>
+  </body>
+</html>
